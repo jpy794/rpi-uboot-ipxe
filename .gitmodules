@@ -1,0 +1,10 @@
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/u-boot/u-boot.git
+[submodule "ipxe"]
+	path = ipxe
+	url = https://github.com/ipxe/ipxe.git
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/raspberrypi/firmware.git
+	shallow = true

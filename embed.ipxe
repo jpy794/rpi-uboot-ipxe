@@ -1,0 +1,6 @@
+#!ipxe
+
+:retry
+dhcp || goto retry
+ntp pool.ntp.org || goto retry
+chain -a https://boot.netboot.xyz || goto retry

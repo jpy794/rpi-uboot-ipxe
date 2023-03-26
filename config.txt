@@ -1,0 +1,9 @@
+arm_64bit=1
+enable_uart=1
+kernel=u-boot.bin
+
+# enable start.elf to output debug info to uart
+uart_2ndstage=1
+
+# set core to a fixed frequency to use miniuart
+core_freq=250
